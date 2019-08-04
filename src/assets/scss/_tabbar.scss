@@ -1,0 +1,24 @@
+@import "mixins";
+
+.g-tabbar {
+  position:fixed;
+  left:0;
+  bottom:0;
+  z-index:$tabbar-z-index;
+  //box-shadow:0 0 10px 0 hsla(0,6%,58%,0.6);
+  border-top:1px solid #eee;
+  display:flex;
+  width:100%;
+  height:$tabbar-height;
+  background:#fff;
+
+  &-item {
+    flex:1;
+    @include flex-center(column);
+
+    .iconfont{
+      margin-bottom:4px;
+      font-size:$icon-font-size;
+    }
+  }
+}

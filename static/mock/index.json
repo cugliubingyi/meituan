@@ -1,0 +1,200 @@
+{
+  "ret": true,
+  "data": {
+    "iconList": [{
+      "id": "0001",
+      "iconName": "iconic_restaurant_px",
+      "desc": "美食"
+    },{
+      "id": "0002",
+      "iconName": "iconmaoyandianying",
+      "desc": "电影/演出"
+    },{
+      "id": "0003",
+      "iconName": "iconjiudianzhusu_icon",
+      "desc": "酒店住宿"
+    },{
+      "id": "0004",
+      "iconName": "iconxiuxianyule",
+      "desc": "休闲娱乐"
+    },{
+      "id": "0005",
+      "iconName": "iconwaimai1",
+      "desc": "外卖"
+    },{
+      "id": "0006",
+      "iconName": "icondache",
+      "desc": "打车"
+    },{
+      "id": "0007",
+      "iconName": "iconjingdian",
+      "desc": "景点/门票"
+    },{
+      "id": "0008",
+      "iconName": "iconzhoubianyou",
+      "desc": "周边游/旅游"
+    },{
+      "id": "0009",
+      "iconName": "iconKTV",
+      "desc": "KTV"
+    },{
+      "id": "0010",
+      "iconName": "iconxiaochikuaican",
+      "desc": "小吃快餐"
+    },{
+      "id": "0011",
+      "iconName": "iconliren",
+      "desc": "丽人/美发"
+    },{
+      "id": "0012",
+      "iconName": "iconhuochepiao",
+      "desc": "火车票/机票"
+    },{
+      "id": "0013",
+      "iconName": "iconhongbao",
+      "desc": "红包签到"
+    },{
+      "id": "0014",
+      "iconName": "iconyaoqingyouli",
+      "desc": "免费领福利"
+    },{
+      "id": "0015",
+      "iconName": "icongongyi",
+      "desc": "公益"
+    },{
+      "id": "0016",
+      "iconName": "iconliren",
+      "desc": "丽人/美发"
+    },{
+      "id": "0017",
+      "iconName": "iconxiuxianyule",
+      "desc": "休闲娱乐"
+    }],
+    "swiperList": [{
+      "id": "0001",
+      "imgUrl": "http://p1.meituan.net/660.500/joymerchant/5986173417881047840-2662104-1494487651287.jpg"
+    },{
+      "id": "0002",
+      "imgUrl": "http://p0.meituan.net/660.500/joymerchant/118873943749507450.jpg"
+    },{
+      "id": "0003",
+      "imgUrl": "http://p0.meituan.net/660.500/joymerchant/6130798954958548549.JPG"
+    },{
+      "id": "0004",
+      "imgUrl": "http://p1.meituan.net/660.500/joymerchant/2287903917907844373-24819091-1499245947238.jpg"
+    }],
+    "recommendList": [{
+      "id": "0001",
+      "imgUrl": [
+        "http://p0.meituan.net/200.0/deal/238c016f8fecdbb6013fa1277ea513b3294950.jpg@331_0_1326_1326a%7C267h_267w_2e_90Q"
+      ],
+      "title": "鑫小城故事",
+      "desc": "[12店通用]2-3人餐, 提供免费WiFi",
+      "curPrice": 78,
+      "originPrice": 114,
+      "distance": 2.4,
+      "discount": 6.8
+    },{
+      "id": "0002",
+      "imgUrl": [
+        "http://p1.meituan.net/200.0/dpdeal/d3dccda8b83f443f35b3cc5a914087463852398.png"
+      ],
+      "title": "康之泉活水馆",
+      "desc": "[王家湾]单人单次入场票",
+      "curPrice": 99,
+      "originPrice": 128,
+      "distance": 3.8,
+      "discount": 7.7
+    },{
+      "id": "0003",
+      "imgUrl": [
+        "http://p0.meituan.net/200.0/dpdeal/4aef4a6c224e9a540752f9277d54d3be1627997.png"
+      ],
+      "title": "柏菲恒温游泳馆",
+      "desc": "[青年路/常青路]单人单次卡 【限时入场】",
+      "curPrice": 24.5,
+      "originPrice": 65,
+      "distance": 5.1,
+      "discount": 3.8
+    },{
+      "id": "0004",
+      "imgUrl": [
+        "https://img.meituan.net/msmerchant/175b11623aad3a040bab385b00562ee6154889.jpg@92w_50h_1e_1c",
+        "https://img.meituan.net/msmerchant/b2b9a4608a501697b08ea056923fa0753156267.jpg@92w_50h_1e_1c",
+        "https://img.meituan.net/msmerchant/dc972927c7ab5ff151a8c3eef8e397f0164752.jpg@92w_50h_1e_1c"
+      ],
+      "title": "井圣日膳 二人の小确幸",
+      "desc": "仅售128元！最高价值156元的二人の小确幸，提供免费WiFi",
+      "curPrice": 128,
+      "originPrice": 156,
+      "distance": 6.7
+    },{
+      "id": "0005",
+      "imgUrl": [
+        "http://p0.meituan.net/200.0/deal/238c016f8fecdbb6013fa1277ea513b3294950.jpg@331_0_1326_1326a%7C267h_267w_2e_90Q"
+      ],
+      "title": "鑫小城故事",
+      "desc": "[12店通用]2-3人餐, 提供免费WiFi",
+      "curPrice": 78,
+      "originPrice": 114,
+      "distance": 2.4,
+      "discount": 6.8
+    },{
+      "id": "0006",
+      "imgUrl": [
+        "http://p1.meituan.net/200.0/dpdeal/d3dccda8b83f443f35b3cc5a914087463852398.png"
+      ],
+      "title": "康之泉活水馆",
+      "desc": "[王家湾]单人单次入场票",
+      "curPrice": 99,
+      "originPrice": 128,
+      "distance": 3.8,
+      "discount": 7.7
+    },{
+      "id": "0007",
+      "imgUrl": [
+        "https://img.meituan.net/msmerchant/0de7f60eb50d135caf02909e3d1fd5a2487874.jpg@92w_50h_1e_1c",
+        "https://img.meituan.net/msmerchant/d8c22a902859ab86671ee8e8257325262409687.jpg@92w_50h_1e_1c",
+        "https://img.meituan.net/msmerchant/bc8d8a897fde45dab18d03fc4a80a20d5920865.jpg@92w_50h_1e_1c"
+      ],
+      "title": "禾帕自助餐厅",
+      "desc": "仅售239元！最高价值328元的双人套餐，提供免费WiFi",
+      "curPrice": 239,
+      "originPrice": 328,
+      "distance": 9.1
+    },{
+      "id": "0008",
+      "imgUrl": [
+        "http://p0.meituan.net/200.0/dpdeal/4aef4a6c224e9a540752f9277d54d3be1627997.png"
+      ],
+      "title": "柏菲恒温游泳馆",
+      "desc": "[青年路/常青路]单人单次卡 【限时入场】",
+      "curPrice": 24.5,
+      "originPrice": 65,
+      "distance": 5.1,
+      "discount": 3.8
+    },{
+      "id": "0009",
+      "imgUrl": [
+        "http://p0.meituan.net/200.0/deal/238c016f8fecdbb6013fa1277ea513b3294950.jpg@331_0_1326_1326a%7C267h_267w_2e_90Q"
+      ],
+      "title": "鑫小城故事",
+      "desc": "[12店通用]2-3人餐, 提供免费WiFi",
+      "curPrice": 78,
+      "originPrice": 114,
+      "distance": 2.4,
+      "discount": 6.8
+    },{
+      "id": "0010",
+      "imgUrl": [
+        "http://p1.meituan.net/200.0/dpdeal/d3dccda8b83f443f35b3cc5a914087463852398.png"
+      ],
+      "title": "康之泉活水馆",
+      "desc": "[王家湾]单人单次入场票",
+      "curPrice": 99,
+      "originPrice": 128,
+      "distance": 3.8,
+      "discount": 7.7
+    }]
+  }
+}
