@@ -142,7 +142,7 @@ export default {
       .recommend-pics{
         @include flex-between();
         .recommend-pic{
-          width:108px;
+          width:32%;
           border-radius:5px;
           overflow:hidden;
           .recommend-img{

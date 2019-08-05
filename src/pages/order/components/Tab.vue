@@ -1,17 +1,17 @@
 <template>
-  <div class="tab" ref="wrapper">
-    <div ref="tablistwrapper">
-      <ul class="tab-list" ref="tablist">
+  <div class="tab">
+    <div>
+      <ul class="tab-list">
         <li
           class="tab-item"
           :class="{'tab-item-active': item.id === curId}"
-          v-for="(item, index) of tabItems"
+          v-for="(item, index) of list"
           :key="index"
-          @click="switchTab(item.id, item.name)"
+          @click="switchTab(item.id, item.status)"
         >{{item.name}}</li>
         <li
           class="tab-pannel"
-          :style="{transform:'translate3d(' + 62*curId + 'px,0,0)'}"
+          :style="{transform:'translate3d(' + 75*curId + 'px,0,0)'}"
         ></li>
       </ul>
     </div>
@@ -19,10 +19,8 @@
 </template>
 
 <script>
-import Bscroll from 'better-scroll'
-
 export default {
-  name: 'FindTab',
+  name: 'OrderTab',
   props: {
     list: [Array, Object]
   },
@@ -31,48 +29,14 @@ export default {
       curId: 0
     }
   },
-  computed: {
-    tabItems () {
-      const arr = []
-      const newArr = []
-      for (let key in this.list) {
-        arr.push(key)
-      }
-      arr.forEach((item, index) => {
-        const tabItem = {}
-        tabItem.id = index
-        tabItem.name = item
-        newArr.push(tabItem)
-      })
-      return newArr
-    }
-  },
   methods: {
-    switchTab (id, name) {
+    switchTab (id, status) {
       if (this.curId === id) {
         return
       }
       this.curId = id
-      this.$emit('switch-tab', name)
-    },
-    initScroll () {
-      this.$refs.tablistwrapper.style.width = '558px'
-      this.$refs.tablist.style.width = '558px'
-      this.$nextTick(() => {
-        this.scroll = new Bscroll(this.$refs.wrapper, {
-          startX: 0,
-          click: true,
-          scrollX: true,
-          scrollY: false,
-          eventPassthrough: 'vertical'
-        })
-      })
+      this.$emit('switch-tab', status)
     }
-  },
-  mounted () {
-    setTimeout(() => {
-      this.initScroll()
-    }, 100)
   }
 }
 </script>
@@ -99,7 +63,7 @@ export default {
       }
       .tab-item{
         float:left;
-        width:62px;
+        width:(100%/5);
         height:40px;
         text-align:center;
         line-height:40px;
@@ -111,8 +75,8 @@ export default {
       .tab-pannel{
         position:absolute;
         bottom:4px;
-        left:20px;
-        width:20px;
+        left:24px;
+        width:27px;
         height:2px;
         background:$header-bgc;
         transition:all .4s;

@@ -51,6 +51,11 @@ export default {
       })
     }
   },
+  watch: {
+    curName () {
+      this.scroll.scrollTo(0, 0, 0)
+    }
+  },
   mounted () {
     setTimeout(() => {
       this.initScroll()
@@ -69,6 +74,7 @@ export default {
     left:0;
     right:0;
     bottom:$tabbar-height;
+    background:linear-gradient(to bottom,#fff 0%,#eee 100%);
     .content-container{
       height:auto;
       .content-list{

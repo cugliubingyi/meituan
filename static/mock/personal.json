@@ -1,0 +1,73 @@
+{
+  "ret": true,
+  "data": {
+    "usermsg": {
+      "userphoto": "http://img2.woyaogexing.com/2019/08/02/29a6f8d5fff04a83bb745331cbb91200!400x400.jpeg",
+      "username": "皮卡丘爱小仙女",
+      "mywallet": {
+        "myborrow": "5000",
+        "myasset": "0.00",
+        "mydiscount": "127"
+      }
+    },
+    "swiperList": [
+      {
+        "id": "0001",
+        "imgUrl": "http://img2.imgtn.bdimg.com/it/u=2751140603,4194914617&fm=26&gp=0.jpg"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1011100815,438812762&fm=26&gp=0.jpg"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2724394765,4203995432&fm=11&gp=0.jpg"
+      }
+    ],
+    "toolList": [{
+      "id": "0001",
+      "iconName": "iconyaoqingyouli",
+      "desc": "邀请有礼"
+    },{
+      "id": "0002",
+      "iconName": "iconshoujichongzhi",
+      "desc": "手机充值"
+    },{
+      "id": "0003",
+      "iconName": "iconhuochepiao",
+      "desc": "火车票/机票"
+    },{
+      "id": "0004",
+      "iconName": "iconshui",
+      "desc": "新个税计算"
+    },{
+      "id": "0005",
+      "iconName": "iconVIP-",
+      "desc": "会员中心"
+    },{
+      "id": "0006",
+      "iconName": "icongongyi",
+      "desc": "美团公益"
+    },{
+      "id": "0007",
+      "iconName": "iconGroupCopy",
+      "desc": "闪付"
+    },{
+      "id": "0008",
+      "iconName": "iconmianliuliangfuwu",
+      "desc": "免流用美团"
+    },{
+      "id": "0009",
+      "iconName": "iconfapiao",
+      "desc": "发票助手"
+    },{
+      "id": "0010",
+      "iconName": "iconwoyaohezuo",
+      "desc": "我要合作"
+    },{
+      "id": "0011",
+      "iconName": "iconmeituan",
+      "desc": "关于美团"
+    }]
+  }
+}
