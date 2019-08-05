@@ -11,7 +11,7 @@
         >{{item.name}}</li>
         <li
           class="tab-pannel"
-          :style="{transform:'translate3d(' + 75*curId + 'px,0,0)'}"
+          :style="{transform:'translate3d(' + 20*curId + 'vw,0,0)'}"
         ></li>
       </ul>
     </div>
@@ -75,8 +75,8 @@ export default {
       .tab-pannel{
         position:absolute;
         bottom:4px;
-        left:24px;
-        width:27px;
+        left:6vw;
+        width:8vw;
         height:2px;
         background:$header-bgc;
         transition:all .4s;

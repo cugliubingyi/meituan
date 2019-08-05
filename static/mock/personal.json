@@ -2,13 +2,11 @@
   "ret": true,
   "data": {
     "usermsg": {
-      "userphoto": "http://img2.woyaogexing.com/2019/08/02/29a6f8d5fff04a83bb745331cbb91200!400x400.jpeg",
+      "userphoto": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1750237308,4119581225&fm=26&gp=0.jpg",
       "username": "皮卡丘爱小仙女",
-      "mywallet": {
-        "myborrow": "5000",
-        "myasset": "0.00",
-        "mydiscount": "127"
-      }
+      "myborrow": "5000",
+      "myasset": "0.00",
+      "mydiscount": "127"
     },
     "swiperList": [
       {

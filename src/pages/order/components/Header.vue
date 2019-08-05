@@ -30,7 +30,7 @@ export default {
       position:absolute;
       right:10px;
       color:#000;
-      font-size:18px;
+      font-size:$icon-font-size-sm;
     }
   }
 </style>
