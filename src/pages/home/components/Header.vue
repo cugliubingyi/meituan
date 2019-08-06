@@ -41,7 +41,7 @@ export default {
     height:$navbar-height;
     background:$header-bgc;
     z-index:$navbar-z-index;
-    @include flex-between;
+    @include flex-between();
     &.header-fixed{
       position:fixed;
       left:0;
