@@ -6,7 +6,7 @@
         class="header-search-box"
         type="text"
         title="搜索框"
-        :placeholder="placeholder"
+        placeholder="城市名/拼音"
         ref="input"
         v-model="query"
       >
@@ -16,7 +16,7 @@
         @click="reset"
       ></i>
     </div>
-    <router-link to="/home" class="header-cancel">取消</router-link>
+    <div @click="goBack" class="header-cancel">取消</div>
   </div>
 </template>
 
@@ -24,13 +24,7 @@
 import {debounce} from 'assets/js/util'
 
 export default {
-  name: 'SearchHeader',
-  props: {
-    placeholder: {
-      type: String,
-      default: '请输入搜索内容'
-    }
-  },
+  name: 'CitySearchHeader',
   data () {
     return {
       query: ''
@@ -51,9 +45,12 @@ export default {
     reset () {
       this.clear()
       this.focus()
+    },
+    goBack () {
+      this.$router.back()
     }
   },
-  activated () {
+  mounted () {
     this.reset()
   }
 }
@@ -67,9 +64,9 @@ export default {
     top:0;
     left:0;
     width:100%;
-    height:40px;
-    background:#fff;
-    padding:0 10px;
+    height:50px;
+    background:$header-bgc;
+    padding:0 20px;
     display:flex;
     align-items:center;
     .header-search-wrapper{
@@ -77,15 +74,15 @@ export default {
       align-items: center;
       padding: 0 7px;
       flex:1;
-      height:24px;
-      border-radius:15px;
-      background:#ddd;
+      height:30px;
+      border-radius:12px;
+      background:#fff;
       margin-right:10px;
       .header-search-box{
         flex: 1;
         background: none;
         border: none;
-        margin: 0 6px;
+        margin: 0 12px;
         color: #999;
         font-size:$font-size-l;
         line-height: 1.5;
@@ -108,7 +105,7 @@ export default {
     }
     .header-cancel{
       font-size:$font-size-l;
-      color:#000;
+      color:#999;
     }
   }
 </style>

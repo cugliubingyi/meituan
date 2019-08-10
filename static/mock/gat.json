@@ -1,0 +1,46 @@
+{
+  "ret": true,
+  "data": {
+    "hotList": {
+      "港澳台热门目的地": [
+        {
+          "name": "中国香港",
+          "desc": "美食购物天堂",
+          "imgUrl": "http://img4.imgtn.bdimg.com/it/u=227788298,2303865242&fm=26&gp=0.jpg"
+        },
+        {
+          "name": "中国澳门",
+          "desc": "国际烟花汇演",
+          "imgUrl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3141619710,948005306&fm=26&gp=0.jpg"
+        },
+        {
+          "name": "台北",
+          "desc": "(中国台湾)",
+          "imgUrl": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1372184887,658013019&fm=26&gp=0.jpg"
+        },
+        {
+          "name": "高雄",
+          "desc": "(中国台湾)",
+          "imgUrl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=4004533740,478950096&fm=26&gp=0.jpg"
+        }
+      ]
+    },
+    "list": {
+      "中国香港": ["中国香港"],
+      "中国澳门": ["中国澳门"],
+      "中国台湾": [
+        "中国台湾",
+        "台北",
+        "恒春",
+        "南投",
+        "高雄",
+        "新北",
+        "花莲",
+        "台中",
+        "桃园",
+        "台南",
+        "嘉义市"
+      ]
+    }
+  }
+}

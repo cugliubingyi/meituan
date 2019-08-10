@@ -1,0 +1,63 @@
+{
+  "ret": true,
+  "data": {
+    "hotList": {
+      "美洲热门目的地": [
+        {
+          "name": "洛杉矶",
+          "desc": "好莱坞与迪士尼",
+          "imgUrl": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=4011459435,3275098279&fm=26&gp=0.jpg"
+        },
+        {
+          "name": "纽约",
+          "desc": "国家象征自由女神",
+          "imgUrl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3219700676,2373805534&fm=26&gp=0.jpg"
+        },
+        {
+          "name": "拉斯维加斯",
+          "desc": "纸醉金迷 梦幻之都",
+          "imgUrl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3298363679,1425433687&fm=26&gp=0.jpg"
+        },
+        {
+          "name": "圣地亚哥",
+          "desc": "领略活力和迷人风景",
+          "imgUrl": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2998239537,2872587887&fm=26&gp=0.jpg"
+        }
+      ]
+    },
+    "list": {
+      "加拿大": [
+        "加拿大",
+        "多伦多",
+        "不列颠哥伦比亚省",
+        "安大略省",
+        "温哥华",
+        "蒙特利尔",
+        "渥太华",
+        "魁北克",
+        "尼亚加拉瀑布",
+        "艾伯塔",
+        "卡尔加里"
+      ],
+      "巴西": [
+        "巴西",
+        "圣保罗",
+        "里约日内卢",
+        "伊瓜苏"
+      ],
+      "美国": [
+        "美国",
+        "洛杉矶",
+        "纽约",
+        "塞班岛",
+        "加利福尼亚州",
+        "旧金山",
+        "拉斯维加斯",
+        "新泽西州",
+        "圣地亚哥",
+        "马萨诸塞州",
+        "纽约州"
+      ]
+    }
+  }
+}

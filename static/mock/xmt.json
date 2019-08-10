@@ -1,0 +1,60 @@
+{
+  "ret": true,
+  "data": {
+    "hotList": {
+      "新马泰热门目的地": [
+        {
+          "name": "曼谷",
+          "desc": "千佛寺庙人妖风采",
+          "imgUrl": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2393682610,3668795157&fm=26&gp=0.jpg"
+        },
+        {
+          "name": "新加坡",
+          "desc": "游环球影城圣淘沙",
+          "imgUrl": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1204592356,1248116405&fm=26&gp=0.jpg"
+        },
+        {
+          "name": "普吉岛",
+          "desc": "超高人气海岛群",
+          "imgUrl": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1307184581,4246635874&fm=26&gp=0.jpg"
+        },
+        {
+          "name": "吉隆坡",
+          "desc": "登双子塔逛茨厂街",
+          "imgUrl": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2617829705,2706560122&fm=26&gp=0.jpg"
+        }
+      ]
+    },
+    "list": {
+      "泰国": [
+        "泰国",
+        "曼谷",
+        "普吉岛",
+        "芭提雅",
+        "清迈",
+        "苏梅岛",
+        "甲米",
+        "清莱",
+        "华欣",
+        "素叻他尼",
+        "皮皮岛"
+      ],
+      "马来西亚": [
+        "马来西亚",
+        "吉隆坡",
+        "亚庇",
+        "沙巴",
+        "槟城",
+        "新山",
+        "兰卡威",
+        "马六甲",
+        "怡保",
+        "古晋",
+        "登嘉楼"
+      ],
+      "新加坡": [
+        "新加坡"
+      ]
+    }
+  }
+}

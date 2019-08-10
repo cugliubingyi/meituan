@@ -1,0 +1,61 @@
+{
+  "ret": true,
+  "data": {
+    "hotList": {
+      "澳新热门目的地": [
+        {
+          "name": "悉尼",
+          "desc": "歌剧院和海港大桥",
+          "imgUrl": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=438519661,1002734354&fm=26&gp=0.jpg"
+        },
+        {
+          "name": "墨尔本",
+          "desc": "自驾最美海滨公路",
+          "imgUrl": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=99210044,2394474461&fm=26&gp=0.jpg"
+        },
+        {
+          "name": "黄金海岸",
+          "desc": "假日游乐圣地",
+          "imgUrl": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2240934378,956845861&fm=26&gp=0.jpg"
+        },
+        {
+          "name": "皇后镇",
+          "desc": "跳伞蹦极漂流",
+          "imgUrl": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=217404566,1284877162&fm=26&gp=0.jpg"
+        }
+      ]
+    },
+    "list": {
+      "澳大利亚": [
+        "澳大利亚",
+        "墨尔本",
+        "悉尼",
+        "布里斯班",
+        "黄金海岸",
+        "新南威尔士",
+        "阿德莱德",
+        "堪培拉",
+        "塔斯马尼亚岛",
+        "珀斯",
+        "卧龙岗"
+      ],
+      "新西兰": [
+        "新西兰",
+        "奥克兰",
+        "新西兰南岛",
+        "皇后镇",
+        "惠灵顿",
+        "基督城",
+        "汉密尔顿",
+        "罗托鲁尼",
+        "尼尔森",
+        "达尼丁",
+        "奥马鲁"
+      ],
+      "斐济": [
+        "斐济",
+        "楠迪"
+      ]
+    }
+  }
+}

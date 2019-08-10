@@ -1,0 +1,57 @@
+{
+  "ret": true,
+  "data": {
+    "hotList": {
+      "日韩热门目的地": [
+        {
+          "name": "东京",
+          "desc": "游迪士尼海洋公园",
+          "imgUrl": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2831734628,837664478&fm=26&gp=0.jpg"
+        },
+        {
+          "name": "京都",
+          "desc": "历史神社古刹京都",
+          "imgUrl": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2545996732,399342621&fm=26&gp=0.jpg"
+        },
+        {
+          "name": "大阪",
+          "desc": "环球影城蓝天大厦",
+          "imgUrl": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2887789116,1657453588&fm=26&gp=0.jpg"
+        },
+        {
+          "name": "首尔",
+          "desc": "韩餐购物汗蒸整容",
+          "imgUrl": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3830300328,300254727&fm=26&gp=0.jpg"
+        }
+      ]
+    },
+    "list": {
+      "日本": [
+        "日本",
+        "东京",
+        "大阪",
+        "京都",
+        "千叶",
+        "爱知",
+        "名古屋",
+        "横滨",
+        "福冈",
+        "奈良",
+        "静冈"
+      ],
+      "韩国": [
+        "韩国",
+        "首尔",
+        "京畿道",
+        "济州岛",
+        "釜山",
+        "大邱",
+        "庆尚北道",
+        "大田",
+        "蔚山",
+        "全州",
+        "水原"
+      ]
+    }
+  }
+}
