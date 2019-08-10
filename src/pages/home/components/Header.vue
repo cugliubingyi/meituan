@@ -2,10 +2,10 @@
   <div class="header">
     <div class="header-overhead"></div>
     <div class="header-left">
-      <router-link to="/city">
+      <div @click="goToCity">
         {{this.city}}
         <i class="iconfont iconarrow-bottom"></i>
-      </router-link>
+      </div>
     </div>
     <div class="header-center">
       <router-link to="/search" class="search-link">
@@ -27,6 +27,11 @@ export default {
   name: 'HomeHeader',
   computed: {
     ...mapState(['city'])
+  },
+  methods: {
+    goToCity () {
+      this.$router.push('/city')
+    }
   }
 }
 </script>

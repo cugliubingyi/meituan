@@ -27,7 +27,14 @@ const routes = [
   {
     path: '/city',
     name: 'City',
-    component: () => import('pages/city/City')
+    component: () => import('pages/city/City'),
+    children: [
+      {
+        name: 'CitySearch',
+        path: 'citysearch',
+        component: () => import('pages/citysearch/CitySearch')
+      }
+    ]
   },
   {
     path: '/search',

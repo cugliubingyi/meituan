@@ -1,0 +1,39 @@
+{
+  "ret": true,
+  "data": {
+    "hotList": {
+      "热门目的地": [
+        {
+          "name": "中国香港",
+          "desc": "美食购物天堂",
+          "imgUrl": "http://img4.imgtn.bdimg.com/it/u=227788298,2303865242&fm=26&gp=0.jpg"
+        },
+        {
+          "name": "中国澳门",
+          "desc": "国际烟花汇演",
+          "imgUrl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3141619710,948005306&fm=26&gp=0.jpg"
+        },
+        {
+          "name": "东京",
+          "desc": "游迪士尼海洋公园",
+          "imgUrl": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2831734628,837664478&fm=26&gp=0.jpg"
+        },
+        {
+          "name": "曼谷",
+          "desc": "千佛寺庙人妖风采",
+          "imgUrl": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2393682610,3668795157&fm=26&gp=0.jpg"
+        },
+        {
+          "name": "台北",
+          "desc": "(中国台湾)",
+          "imgUrl": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1372184887,658013019&fm=26&gp=0.jpg"
+        },
+        {
+          "name": "新加坡",
+          "desc": "游环球影城圣淘沙",
+          "imgUrl": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1204592356,1248116405&fm=26&gp=0.jpg"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "ret": true,
+  "data": {
+    "hotList": {
+      "亚洲其他热门目的地": [
+        {
+          "name": "巴厘岛",
+          "desc": "海滩神庙皇宫梯田",
+          "imgUrl": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1204535890,221828847&fm=26&gp=0.jpg"
+        },
+        {
+          "name": "芽庄",
+          "desc": "游四岛漫步沙滩",
+          "imgUrl": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2746379232,2889830893&fm=26&gp=0.jpg"
+        },
+        {
+          "name": "暹粒",
+          "desc": "观吴哥窟探崩密列",
+          "imgUrl": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=159106440,851008359&fm=26&gp=0.jpg"
+        },
+        {
+          "name": "长滩岛",
+          "desc": "漫步沙滩靠海而眠",
+          "imgUrl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=252775607,1548844713&fm=26&gp=0.jpg"
+        }
+      ]
+    },
+    "list": {
+      "菲律宾": [
+        "菲律宾",
+        "马尼拉",
+        "宿雾",
+        "薄荷岛",
+        "巴拉望",
+        "杜马盖地",
+        "长滩岛"
+      ],
+      "越南": [
+        "越南",
+        "芽庄",
+        "胡志明市",
+        "河内",
+        "岘港",
+        "会安",
+        "藩切",
+        "大叻",
+        "富国岛",
+        "老街",
+        "顺化",
+        "美奈"
+      ],
+      "柬埔寨": [
+        "柬埔寨",
+        "暹粒",
+        "金边",
+        "西哈努克"
+      ]
+    }
+  }
+}
