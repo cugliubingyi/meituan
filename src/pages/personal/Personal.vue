@@ -1,11 +1,10 @@
 <template>
   <div class="personal">
-    <div class="overhead" :style="{'top':`${headerTop}px`}">
+    <div class="overhead" :style="{'top':`${personalHeaderTop}px`}">
       <div class="header-overhead"></div>
     </div>
     <personal-header
       :username="usermsg.username"
-      :headerTop="Math.abs(headerTop)"
       v-if="isHeaderShow"
     />
     <div class="personal-scroll" ref="wrapper">
@@ -36,6 +35,7 @@ import PersonalPannel from './components/Pannel'
 import PersonalWallet from './components/Wallet'
 import PersonalSwiper from './components/Swiper'
 import PersonalTool from './components/Tool'
+import { mapState, mapMutations } from 'vuex'
 import axios from 'axios'
 
 export default {
@@ -51,7 +51,6 @@ export default {
   },
   data () {
     return {
-      headerTop: 0,
       usermsg: {},
       swiperList: [],
       toolList: []
@@ -59,8 +58,9 @@ export default {
   },
   computed: {
     isHeaderShow () {
-      return this.headerTop < 0
-    }
+      return this.personalHeaderTop < 0
+    },
+    ...mapState(['personalHeaderTop'])
   },
   methods: {
     getPersonalInfo () {
@@ -82,16 +82,20 @@ export default {
         })
 
         this.scroll.on('scroll', (pos) => {
-          this.headerTop = pos.y
+          this.changePersonalHeaderTop(pos.y)
         })
       })
-    }
+    },
+    ...mapMutations(['changePersonalHeaderTop'])
   },
   mounted () {
     this.getPersonalInfo()
     setTimeout(() => {
       this.initScroll()
     }, 100)
+  },
+  deactivated () {
+    this.scroll.scrollTo(0, 0, 0)
   }
 }
 </script>
@@ -100,6 +104,10 @@ export default {
   @import "~assets/scss/mixins";
 
   .personal{
+    overflow:hidden;
+    width:100%;
+    height:100%;
+    background:$bgc-theme;
     .overhead{
       position:absolute;
       left:0;
@@ -109,6 +117,7 @@ export default {
         position:absolute;
         left:0;
         bottom:100%;
+        margin-bottom:-10px;
         width:100%;
         height:500px;
         background:$header-bgc;

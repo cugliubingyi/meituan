@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="find">
     <find-header/>
     <find-tab
       :list="findList"
@@ -56,5 +56,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  @import "~assets/scss/mixins";
 
+  .find{
+    overflow:hidden;
+    width:100%;
+    height:100%;
+    background:$bgc-theme;
+  }
 </style>

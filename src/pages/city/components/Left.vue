@@ -21,6 +21,7 @@
 <script>
 import Bscroll from 'better-scroll'
 import axios from 'axios'
+import {mapState, mapMutations} from 'vuex'
 
 export default {
   name: 'CityLeft',
@@ -53,12 +54,17 @@ export default {
         return
       }
       this.curId = id
+      this.changeInternationalTab(id)
       this.$emit('switch-tab', id)
-    }
+    },
+    ...mapMutations(['changeInternationalTab'])
+  },
+  computed: {
+    ...mapState(['internationalTab'])
   },
   mounted () {
     this.getLeftInfo()
-    this.switchTab('tj')
+    this.switchTab(this.internationalTab)
     setTimeout(() => {
       this.initScroll()
     }, 100)

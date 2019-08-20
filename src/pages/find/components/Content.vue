@@ -60,6 +60,9 @@ export default {
     setTimeout(() => {
       this.initScroll()
     }, 100)
+  },
+  deactivated () {
+    this.scroll.scrollTo(0, 0, 0)
   }
 }
 </script>

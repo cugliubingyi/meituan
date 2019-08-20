@@ -26,6 +26,7 @@ export default {
   @import "~assets/scss/mixins";
 
   .user{
+    position:relative;
     width:100%;
     height:100px;
     @include flex-between();

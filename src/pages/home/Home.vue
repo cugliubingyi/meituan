@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <home-header :class="{'header-fixed':isHeaderFixed}" :style="{'top':`${headerTop}px`}"/>
+    <home-header :class="{'header-fixed':isHeaderFixed}"/>
     <div class="home-scroll" ref="wrapper">
       <div>
         <div class="scroll-container">
@@ -11,6 +11,7 @@
       </div>
     </div>
     <c-tabbar/>
+    <router-view/>
   </div>
 </template>
 
@@ -59,7 +60,7 @@ export default {
           } else {
             this.hideBacktop()
           }
-          this.headerTop = Math.abs(pos.y)
+          this.changeHomeHeaderTop(Math.abs(pos.y))
           this.isHeaderFixed = (pos.y <= 0)
         })
       })
@@ -76,7 +77,7 @@ export default {
         this.recommendList = data.recommendList
       }
     },
-    ...mapMutations(['showBacktop', 'hideBacktop', 'backEnd'])
+    ...mapMutations(['showBacktop', 'hideBacktop', 'backEnd', 'changeHomeHeaderTop'])
   },
   watch: {
     backtop (backtop) {
@@ -98,6 +99,9 @@ export default {
       this.lastCity = this.city
       this.getHomeInfo()
     }
+  },
+  deactivated () {
+    this.scroll.scrollTo(0, 0, 0)
   }
 }
 </script>
@@ -106,6 +110,10 @@ export default {
   @import "~assets/scss/mixins";
 
   .home{
+    overflow:hidden;
+    width:100%;
+    height:100%;
+    background:$bgc-theme;
     .home-scroll{
       overflow:hidden;
       position:absolute;

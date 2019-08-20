@@ -5,6 +5,15 @@ export default {
       localStorage.city = city
     } catch (e) {}
   },
+  changeHomeHeaderTop (state, homeHeaderTop) {
+    state.homeHeaderTop = homeHeaderTop
+  },
+  changePersonalHeaderTop (state, personalHeaderTop) {
+    state.personalHeaderTop = personalHeaderTop
+  },
+  changeInternationalTab (state, internationalTab) {
+    state.internationalTab = internationalTab
+  },
   showBacktop (state) {
     state.isBacktopVisible = true
   },

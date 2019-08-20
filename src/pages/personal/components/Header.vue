@@ -7,19 +7,20 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
 export default {
   name: 'PersonalHeader',
   props: {
-    username: String,
-    headerTop: Number
+    username: String
   },
   computed: {
     showUsername () {
-      return this.headerTop > 20
+      return Math.abs(this.personalHeaderTop) > 20
     },
     headerOpacity () {
-      return this.headerTop > 20 ? 1 : (this.headerTop / 20)
-    }
+      return Math.abs(this.personalHeaderTop) > 20 ? 1 : (Math.abs(this.personalHeaderTop) / 20)
+    },
+    ...mapState(['personalHeaderTop'])
   }
 }
 </script>

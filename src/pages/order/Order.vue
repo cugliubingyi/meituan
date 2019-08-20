@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="order">
     <order-header/>
     <order-tab
       :list="tabList"
@@ -58,5 +58,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  @import "~assets/scss/mixins";
 
+  .order{
+    overflow:hidden;
+    width:100%;
+    height:100%;
+    background:$bgc-theme;
+  }
 </style>

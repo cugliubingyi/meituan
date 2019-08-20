@@ -76,6 +76,10 @@ export default {
   @import "~assets/scss/mixins";
 
   .search{
+    overflow:hidden;
+    width:100%;
+    height:100%;
+    background:$bgc-theme;
     .search-scroll{
       overflow:hidden;
       position:absolute;

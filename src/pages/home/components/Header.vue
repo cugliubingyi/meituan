@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <div class="header" :style="{'top':`${homeHeaderTop}px`}">
     <div class="header-overhead"></div>
     <div class="header-left">
       <div @click="goToCity">
@@ -26,7 +26,7 @@ import { mapState } from 'vuex'
 export default {
   name: 'HomeHeader',
   computed: {
-    ...mapState(['city'])
+    ...mapState(['city', 'homeHeaderTop'])
   },
   methods: {
     goToCity () {
